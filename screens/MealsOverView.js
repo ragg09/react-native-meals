@@ -12,6 +12,7 @@ export default MealsOverView = ({ route, navigation }) => {
 
   const renderMealItem = ({ item }) => {
     const mealItemProps = {
+      id: item.id,
       title: item.title,
       imageUrl: item.imageUrl,
       duration: item.duration,
